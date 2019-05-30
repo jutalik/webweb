@@ -2,12 +2,12 @@ import Caver from "caver-js";
 import {Spinner} from 'spin.js';
 
 const config = {
-  rpcURL: 'https://api.baobab.klaytn.net:8651'
+  rpcURL: 'https://api.baobab.klaytn.net:8651/';
 }
 const cav = new Caver(config.rpcURL);
-const agContract = new cav.klay.Contract(abi, contractadress);
-const contractadress = '0x9f0B803ed2856cE537ba30C057903A39d16ECFb1';
-const abi = [
+const agContract = new cav.klay.Contract(contractabi, contractadress);
+const contractadress = "0x9f0B803ed2856cE537ba30C057903A39d16ECFb1";
+const contractabi = [
       {
          "constant": false,
          "inputs": [
