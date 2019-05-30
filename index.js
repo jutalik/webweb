@@ -6,7 +6,7 @@ const config = {
 }
 const cav = new Caver(config.rpcURL);
 const agContract = new cav.klay.Contract(abi, contractadress);
-const contractadress = 0x9f0B803ed2856cE537ba30C057903A39d16ECFb1
+const contractadress = '0x9f0B803ed2856cE537ba30C057903A39d16ECFb1';
 const abi = [
       {
          "constant": false,
